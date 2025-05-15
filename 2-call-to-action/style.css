@@ -1,1 +1,56 @@
 /* write your css here */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: #101826;
+  display: flex;
+  flex-direction: row;
+}
+img {
+  width: 50vw;
+}
+
+.sub-heading {
+  color: #7c8df4;
+}
+
+.half {
+  width: 50%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  padding: 25% 10% 25% 20%;
+  /* gap: 30px; */
+}
+
+h1 {
+  padding: 12px 0;
+  color: white;
+}
+
+.info {
+  padding: 24px 0;
+  line-height: 1.5;
+  color: rgb(214, 214, 214);
+  font-weight: 100;
+}
+
+button {
+  width: fit-content;
+  background-color: #28303c;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
