@@ -5,7 +5,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: "Inter", sans-serif;
 }
 .content {
   display: flex;
@@ -109,4 +109,9 @@ ul {
   font-size: 14px;
   color: #868e96;
   list-style: none;
+}
+
+a button {
+  background-color: #4848e0;
+  color: white;
 }
