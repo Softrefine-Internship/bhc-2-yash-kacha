@@ -1,14 +1,10 @@
 /* write your css here */
 
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
-
-* {
-  font-family: "Inter", sans-serif;
-}
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
 }
 
 html {
@@ -85,6 +81,7 @@ html {
   justify-content: center;
   margin: 24px 0;
   margin-bottom: 48px;
+  cursor: pointer;
 }
 
 .btn-s button {
@@ -96,6 +93,7 @@ html {
   border-radius: 4px;
   font-size: 14px;
   margin-bottom: 32px;
+  cursor: pointer;
 }
 
 .compl {
@@ -150,10 +148,11 @@ html {
 }
 
 .end {
-  color: #495057;
+  color: #adb5bd;
 }
 
 .end a {
   color: #4848e0;
   font-weight: 600;
+  text-decoration: none;
 }

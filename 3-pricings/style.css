@@ -5,7 +5,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Inter", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
 }
 .content {
   display: flex;
@@ -15,7 +15,8 @@
   /* gap: 30px; */
 }
 .sub-heading {
-  color: #7c8df4;
+  color: #4848e0;
+  font-weight: 500;
 }
 
 h1 {
@@ -24,10 +25,10 @@ h1 {
 }
 
 .info {
-  width: 500px;
+  width: 630px;
   line-height: 1.5;
   color: #495057;
-  font-weight: 100;
+  font-weight: 300;
   text-align: center;
 }
 .division {
@@ -52,7 +53,7 @@ h1 {
 
 h1 {
   font-size: 38px;
-  font-weight: 750;
+  font-weight: 600;
   position: relative;
 }
 h1 span {
@@ -73,14 +74,16 @@ a {
   border: none;
   border-radius: 5px;
   padding: 6px 0;
-  margin: 24px 0;
+  margin: 40px 0;
   text-align: center;
+  height: 38px;
 }
 
 a button {
   background-color: #4848e0;
   border: none;
   color: white;
+  height: 100%;
 }
 
 .sub-text {
@@ -111,7 +114,13 @@ ul {
   list-style: none;
 }
 
-a button {
-  background-color: #4848e0;
+a:hover {
+  background: radial-gradient(circle at bottom, #4848e0e0 25%, #f2e4f5d4 150%);
+  box-shadow: 0px 0px 2px 2px#868e9665;
+}
+
+a:hover button {
+  background-color: transparent;
   color: white;
+  text-shadow: 0px 0px 4px 4px#0f7be8;
 }

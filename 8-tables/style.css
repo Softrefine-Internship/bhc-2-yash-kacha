@@ -1,1 +1,88 @@
 /* write your css here */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.main {
+  padding: 38px;
+  width: 100%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-bottom: 24px;
+}
+
+.verti {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.verti p {
+  color: #868e96;
+}
+.btn-s {
+  width: 10%;
+}
+.btn-s button {
+  width: 80%;
+  color: white;
+  height: 38px;
+  background-color: #4848e0;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 32px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+}
+
+tr {
+  width: 0%;
+  height: 48px;
+  box-shadow: 0px -1px 0px 0px#dee2e6;
+  /* border-bottom: 4px solid red; */
+}
+
+tr:first-child {
+  box-shadow: none;
+}
+td {
+  color: #868e96;
+}
+
+.fir {
+  width: 20%;
+}
+
+.sec {
+  width: 25%;
+}
+
+.thi {
+  width: 40%;
+}
+
+.fou {
+  width: 15%;
+}
+
+tr a {
+  text-decoration: none;
+  color: #4848e0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
