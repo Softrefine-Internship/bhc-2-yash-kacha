@@ -10,6 +10,7 @@
   padding: 38px;
   width: 100%;
 }
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -24,14 +25,17 @@
 }
 
 .verti p {
-  color: #868e96;
+  color: #555;
 }
+
 .btn-s {
-  width: 10%;
+  display: block;
+  width: 90px;
 }
+
 .btn-s button {
-  width: 80%;
   color: white;
+  width: 100%;
   height: 38px;
   background-color: #4848e0;
   border: none;
@@ -41,14 +45,19 @@
   cursor: pointer;
 }
 
+th {
+  font-weight: 500;
+}
+
 table {
   width: 100%;
   text-align: left;
+  font-size: 14px;
 }
 
 tr {
   width: 0%;
-  height: 48px;
+  height: 52px;
   box-shadow: 0px -1px 0px 0px#dee2e6;
   /* border-bottom: 4px solid red; */
 }
@@ -56,6 +65,7 @@ tr {
 tr:first-child {
   box-shadow: none;
 }
+
 td {
   color: #868e96;
 }

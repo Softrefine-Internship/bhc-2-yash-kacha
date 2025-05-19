@@ -6,6 +6,7 @@
   box-sizing: border-box;
   font-family: "Lexend Deca", sans-serif;
 }
+
 body {
   width: 100vw;
   height: 100vh;
@@ -13,9 +14,11 @@ body {
     radial-gradient(circle at 15% 15%, #f2e4f5 10%, transparent 25%),
     radial-gradient(circle at 80% 90%, #f2e4f5 10%, transparent 25%);
 }
+
 .main-container {
   display: flex;
   flex-direction: column;
+  height: 100vh;
 }
 
 header {
@@ -23,12 +26,17 @@ header {
   padding: 38px;
   width: 100%;
   gap: 24px;
+  height: 70px;
+  padding-bottom: 0px;
+
 }
+
 .btns {
   margin: 0 auto;
   display: flex;
   gap: 24px;
 }
+
 .login {
   justify-self: end;
 }
@@ -49,6 +57,7 @@ header {
   font-weight: 550;
   font-size: 12px;
 }
+
 img {
   width: 50px;
 }
@@ -63,16 +72,22 @@ img {
   border: 1px solid#ced4da;
   border-radius: 500px;
   display: inline;
-  padding: 3px 12px;
+  padding: 6px 12px;
   color: #868e96;
   font-size: 12px;
   font-weight: 500;
 }
 
+.rarr {
+  font-size: 20px;
+  font-weight: 800;
+}
+
 .sub-heading a {
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
   color: #4848e0;
+  font-size: 14px;
 }
 
 .main-heading {
@@ -82,9 +97,10 @@ img {
   padding: 28px 0px;
   line-height: 0.95;
 }
+
 .text {
   width: 100%;
-  color: #7ca0c4;
+  color: #777;
   line-height: 1.5;
   margin-bottom: 24px;
   text-align: center;
@@ -105,12 +121,18 @@ img {
   margin-right: 30px;
 }
 
+.links button {
+  cursor: pointer;
+}
+
 .links button a {
   color: white;
+  font-weight: 400;
+
 }
 
 .center {
-  height: 500px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-content: space-around;

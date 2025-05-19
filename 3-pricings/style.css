@@ -7,6 +7,7 @@
   box-sizing: border-box;
   font-family: "Lexend Deca", sans-serif;
 }
+
 .content {
   display: flex;
   flex-direction: column;
@@ -14,6 +15,7 @@
   margin: 5% auto;
   /* gap: 30px; */
 }
+
 .sub-heading {
   color: #4848e0;
   font-weight: 500;
@@ -31,14 +33,16 @@ h1 {
   font-weight: 300;
   text-align: center;
 }
+
 .division {
   width: 33%;
-  border-right: 2px solid#ced4da;
+  border-right: 1px solid#ced4da4a;
 }
 
 .division:last-child {
   border: none;
 }
+
 .types {
   display: flex;
   justify-content: center;
@@ -56,6 +60,7 @@ h1 {
   font-weight: 600;
   position: relative;
 }
+
 h1 span {
   position: absolute;
   display: inline-block;
@@ -98,6 +103,7 @@ a button {
   border-radius: 500px;
   display: flex;
 }
+
 .icon {
   stroke: white;
   stroke-width: 2px;
@@ -108,6 +114,7 @@ li {
   margin-top: 10px;
   gap: 12px;
 }
+
 ul {
   font-size: 14px;
   color: #868e96;
